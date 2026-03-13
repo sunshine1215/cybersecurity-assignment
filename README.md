@@ -1,45 +1,19 @@
-# cybersecurity-assignment
-Introduction to cybersecurity
-1. Recent Cybersecurity Breach
-Example: Change Healthcare Cyberattack (2024)
-One of the most significant cybersecurity breaches in recent years occurred in February 2024, when Change Healthcare, a major healthcare technology company in the United States, suffered a ransomware attack.
-Cause of the Breach
-The attackers were able to gain access through compromised login credentials that did not have multi-factor authentication (MFA) enabled. Once inside the system, the hackers deployed ransomware that encrypted company systems and disrupted operations.
-Impact of the Breach
-The consequences were severe and affected millions of people.
-Healthcare payment systems across the United States were disrupted.
-Hospitals and pharmacies experienced delays in processing prescriptions and insurance claims.
-Sensitive patient and financial data were potentially exposed.
-The company lost millions of dollars due to system downtime and recovery efforts.
-Lessons Learned
-This incident highlights several important cybersecurity lessons:
-Organizations must implement multi-factor authentication.
-Strong monitoring systems should detect unusual login activity.
-Employees should be trained to follow cybersecurity best practices.
-Sensitive data should always be protected with strong security controls.
-2. Identifying Phishing Emails
-Phishing emails are fraudulent messages designed to trick individuals into revealing personal or financial information.
-Common Signs of a Phishing Email
-Suspicious sender address
-The email address may look similar to a legitimate company but contain slight changes.
-Urgent or threatening language
-Messages often create panic such as “Your account will be suspended immediately.”
-Suspicious links
-Links may redirect users to fake websites designed to steal login information.
-Requests for sensitive information
-Legitimate organizations rarely ask for passwords or banking details via email.
-Simulation Using Free Online Tools
-To identify phishing emails, several free tools can be used:
-1. Google Safe Browsing
-Allows users to check if a website link is dangerous.
-2. PhishTank
-A free community website where phishing links can be checked and reported.
-3. VirusTotal
-Allows users to scan suspicious links and files to detect malicious content.
-Example Phishing Scenario
-An email claims to be from a bank saying:
-"Your account has been temporarily suspended. Click the link below to verify your identity immediately."
-When the link is checked using VirusTotal, the website is flagged as malicious. The sender’s email address also does not match the official bank domain. These indicators confirm the email is a phishing attempt.
+# cyber threat and vulnerabilities
+[scan results](image.png)
+Phishing Attack Scenario Analysis
 
+Scenario
+An employee receives an email that appears to come from the company’s IT department. The email states that the employee’s account password has expired and must be updated immediately. The message includes a link that directs the employee to a login page that looks similar to the company’s official website.
+When the employee clicks the link, they are asked to enter their username and password to “verify their account.” However, the website is actually a fake page created by attackers to steal login credentials.
+Indicators of Compromise
+Several warning signs indicate that this email is a phishing attempt.
+1. Suspicious Email Address
+The email claims to be from the company’s IT department, but the sender’s address uses a slightly different domain name than the official company domain.
+2. Urgent or Threatening Language
+The email pressures the user to act quickly by saying their account will be suspended if they do not update their password immediately. Phishing emails often use urgency to make victims act without thinking.
+3. Suspicious Link
+The link in the email directs users to a website that resembles the company login page but uses a different web address. This is a common phishing technique used to trick users into entering their credentials.
+4. Request for Sensitive Information
+The page asks for login credentials or other sensitive information. Legitimate organizations rarely request such information through email links.
 Conclusion
-Cybersecurity breaches and phishing attacks are becoming increasingly common. Organizations and individuals must adopt stronger security practices such as multi-factor authentication, employee awareness training, and the use of online security tools. Learning how to recognize phishing emails is an essential step in protecting sensitive information and preventing cybercrime.
+Phishing attacks attempt to trick users into revealing sensitive information by impersonating trusted organizations. Recognizing indicators such as suspicious email addresses, urgent language, unusual links, and requests for confidential information can help users identify phishing attempts and prevent security breaches.
